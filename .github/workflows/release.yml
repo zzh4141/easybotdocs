@@ -36,10 +36,9 @@ jobs:
       - name: Create Release and Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
-          #tag_name: ${{ github.ref }}
-          #name: ${{ github.ref }}
+          tag_name: AutoBuild_${{ env.CURRENT_TIME }}
+          name: AutoBuild_${{ env.CURRENT_TIME }}
           body: 此版本由机器人自动构建
-          #body_path: CHANGELOG.txt
           draft: false
           prerelease: false
           files: |
