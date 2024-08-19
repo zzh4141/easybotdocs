@@ -1,15 +1,10 @@
 {
-  "headers": [
-    {
-      "source": "/assets/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=31536000, immutable"
-        }
-      ]
-    }
-  ],
-  "buildCommand": "npm run docs:build",
-  "outputDirectory": ".vitepress/dist"
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.3.3"
+  }
 }
