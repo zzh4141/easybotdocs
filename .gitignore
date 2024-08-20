@@ -7,4 +7,4 @@ public/
 .deploy*/
 _multiconfig.yml
 .vscode/
-/docs/.vuepress
+docs/.vitepress/dist/*
