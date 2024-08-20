@@ -14,10 +14,10 @@ dateCreated: 2024-08-17T12:33:04.385Z
 3. 在机器人服务器列表中添加一个服务器并且设置身份标识
 4. 在服务器中配置EasyBot主程序地址以及身份标识
 ## 1.下载
-[点我滚去下载页面](https://wiki.bioc.fun/zh/down)
+[点我去下载页面](https://wiki.bioc.fun/zh/down)
 ## 2.将插件添加到支持的服务器中
 > 演示用的服务器是 1.20.4-Paper
-想知道是否支持你的服务器? [请点击我滚去查看](https://wiki.bioc.fun/zh/vies)
+想知道是否支持你的服务器? [请点击我去查看](https://wiki.bioc.fun/zh/vies)
 {.is-info}
 
 ![imag25e.webp](/imag25e.webp)

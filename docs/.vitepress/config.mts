@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   title: "EasyBot wiki",
   description: "一个很棒的我的世界服务器互通机器人",
   themeConfig: {
