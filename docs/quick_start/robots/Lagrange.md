@@ -56,25 +56,25 @@ dotnet publish -r win-x64 -c Release -f net7.0 #使用.net7.0生成
 
 #### 先启动 Lagrange.OneBot.exe
 
-![](./attachments/教程__兼容器连接到Lagrange_001.png)
+![](/attachments/教程__兼容器连接到Lagrange_001.png)
 
-![](./attachments/教程__兼容器连接到Lagrange_002.png)
+![](/attachments/教程__兼容器连接到Lagrange_002.png)
 
 #### 生成后在程序目录找到配置文件
 
-![](./attachments/教程__兼容器连接到Lagrange_003.png)
+![](/attachments/教程__兼容器连接到Lagrange_003.png)
 
 ### 修改配置文件
 
 打开生成的配置文件,应该可以看到如下内容,请根据图片修改
 
-![](./attachments/教程__兼容器连接到Lagrange_004.png)
+![](/attachments/教程__兼容器连接到Lagrange_004.png)
 
 #### 配置Implementations
 
 现在我们删除Implementations原来的字段
 
-![](./attachments/教程__兼容器连接到Lagrange_005.gif)
+![](/attachments/教程__兼容器连接到Lagrange_005.gif)
 
 添加如下字段:
 
@@ -88,13 +88,13 @@ dotnet publish -r win-x64 -c Release -f net7.0 #使用.net7.0生成
   "AccessToken": null
 }
 ```
-![](./attachments/教程__兼容器连接到Lagrange_006.gif)
+![](/attachments/教程__兼容器连接到Lagrange_006.gif)
 
 复制后保存文件
 
 ### 启动拉格朗并登录账号
 
-![](./attachments/教程__兼容器连接到Lagrange_007.gif)
+![](/attachments/教程__兼容器连接到Lagrange_007.gif)
 
 出现:
 
@@ -103,11 +103,11 @@ dotnet publish -r win-x64 -c Release -f net7.0 #使用.net7.0生成
 1. 进入机器人管理 -> 适配器管理
 2. 修改将AccessToken修改为空 且 修改地址
 
-![](./attachments/教程__兼容器连接到Lagrange_008.png)
+![](/attachments/教程__兼容器连接到Lagrange_008.png)
 
 ## 保存后连接
 
-![](./attachments/教程__兼容器连接到Lagrange_009.gif)
+![](/attachments/教程__兼容器连接到Lagrange_009.gif)
 
 # OK
 
