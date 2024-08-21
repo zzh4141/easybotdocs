@@ -7,8 +7,8 @@ hero:
   text: "一个很棒的我的世界服务器互通机器人"
   tagline: 一个很棒的QQ Bot项目
   image:
-   src: /public/Logo.png
-   alt: VitePress
+   src: /attachments/logo.png
+   alt: 图标
   actions:
     - theme: brand
       text: 了解详情
