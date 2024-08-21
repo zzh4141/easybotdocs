@@ -7,7 +7,7 @@ hero:
   text: "一个很棒的我的世界服务器互通机器人"
   tagline: 一个很棒的QQ Bot项目
   image:
-   src: /attachments/logo.png
+   src: /attachments/easybot.png
    alt: 图标
   actions:
     - theme: brand

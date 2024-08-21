@@ -8,12 +8,11 @@ editor: markdown
 dateCreated: 2024-08-17T10:18:57.045Z
 ---
 
+![icon](/attachments/easybot.png)
+
 # EasyBot
 > 插件现已支持 1.8.x到1.21之间的所有版本1.8 - 1.21之间的版本都被标为受支持的版本,若您的服务器在此范围内,但插件在加载时遇到BUG,请向我们反馈!
 {.is-info}
-
-
-
 
 
 ### 介绍
