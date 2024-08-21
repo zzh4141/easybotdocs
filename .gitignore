@@ -8,3 +8,5 @@ public/
 _multiconfig.yml
 .vscode/
 docs/.vitepress/dist/*
+docs/.vitepress/cache/*
+docs/.vitepress/cache/deps/*
