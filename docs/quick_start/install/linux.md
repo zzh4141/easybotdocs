@@ -38,6 +38,3 @@ sudo apt-get install -y aspnetcore-runtime-8.0
 ```
 ./EasyBot
 ```
-# 下一步
-
-[点击我跳转](/教程__获取并启用群聊)
