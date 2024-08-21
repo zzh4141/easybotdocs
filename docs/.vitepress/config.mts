@@ -74,7 +74,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/zzh4141/easybotwiki" },
+      { icon: "github", link: "https://github.com/zzh4141/easybotdocs" },
     ],
   },
 });
