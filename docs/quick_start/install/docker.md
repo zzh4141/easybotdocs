@@ -99,9 +99,9 @@ services:
       - WEB_HOST=http://0.0.0.0:5000
     restart: always
     volumes:
-      - ./napcat/config:/app/napcat/config
-      - ./ntqq/qq:/root/.config/QQ
-      - ./EasyBot:/data
+      - /napcat/config:/app/napcat/config
+      - /ntqq/qq:/root/.config/QQ
+      - /EasyBot:/data
     ports:
       - "6099:6099"
       - "5000:5000"
@@ -164,7 +164,7 @@ docker-compose up -d
 ```
 3.登录进去后请使用手机扫码并完成登录,成功之后您将会来到一个配置页面
 
-![](./attachments/使用Docker来安装EasyBot主程序+QQ机器人框架_001.png)请确保启动了ws正向请求
+![](/attachments/使用Docker来安装EasyBot主程序+QQ机器人框架_001.png)请确保启动了ws正向请求
 
 并且新信息的上报模式为消息段
 
@@ -174,9 +174,9 @@ docker-compose up -d
 > 如果你和服务器处于同一个内网,请访问:服务器内网ip:5000
 > 如果你的服务器位于公网，且你们不在同一个内网，请使用:服务器公网ip:5000
 
-![](./attachments/使用Docker来安装EasyBot主程序+QQ机器人框架_002.png)请选择侧边栏的机器人管理的2级菜单中的适配器管理,并选择连接设置
+![](/attachments/使用Docker来安装EasyBot主程序+QQ机器人框架_002.png)请选择侧边栏的机器人管理的2级菜单中的适配器管理,并选择连接设置
 
-![](./attachments/使用Docker来安装EasyBot主程序+QQ机器人框架_003.png)确保正确ws连接端口是正确和连接密钥
+![](/attachments/使用Docker来安装EasyBot主程序+QQ机器人框架_003.png)确保正确ws连接端口是正确和连接密钥
 
 如果您不知道要到哪，请打开我们在第五步是使用网页登录QQ的那个网页
 

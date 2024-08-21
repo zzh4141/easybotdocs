@@ -1,5 +1,5 @@
 ---
-title: 在Linux上安装EasyBot主程序
+title: quick_start/install/linux
 description: 
 published: true
 date: 2024-08-18T06:57:15.138Z
@@ -7,7 +7,7 @@ tags:
 editor: markdown
 dateCreated: 2024-08-18T06:40:11.576Z
 ---
-# 在Linux上安装EasyBot主程序
+# quick_start/install/linux
 
 众所周知.NET8是一个跨平台的语言,我们的软件也支持Linux系统
 
@@ -17,9 +17,9 @@ dateCreated: 2024-08-18T06:40:11.576Z
 2. 下载Linux版本
 3. 启动!!!!
 
-[!TIP]
-> 请注意:我们建议你使用screen命令来保证程序在您断开连接之后也能正常运行
->或者使用docker安装
+> [!TIP] 请注意
+> 我们建议你使用screen命令来保证程序在您断开连接之后也能正常运行    
+> 或者使用[docker](/quick_start/install/docker)安装
 
 
 # 1.安装.NET8运行时和Web运行时
