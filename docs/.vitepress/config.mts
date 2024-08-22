@@ -68,6 +68,7 @@ export default defineConfig({
           { text: "崩溃以及常见问题解决方案", link: "/bug" },
           { text: "PlaceholderApi变量", link: "/api" },
           { text: "赞助废物作者", link: "/money" },
+          { text: "备用地址", link: "/wiki" }
         ], // 添加逗号来分隔项
       },
       {text: "鸣谢", link: "/thanks"}

@@ -75,6 +75,11 @@ docker-compose version
 
 请注意这个镜像包含着QQ机器人框架所以你无需另外安装
 
+> [!IMPORTANT]
+> 如果你的服务器位于中国大陆内
+> 可以查看这篇文章使用加速服务来拉取镜像
+>  [访问菜鸟教程](https://www.runoob.com/docker/docker-mirror-acceleration.html)
+
 1.新建目录存放配置文件
 
 ```
