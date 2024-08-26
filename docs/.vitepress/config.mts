@@ -7,7 +7,12 @@ export default defineConfig({
   description: "一个很棒的我的世界服务器互通机器人",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "首页", link: "/" }],
+    logo: '/easybot.png',
+    nav: [{ text: "首页", link: "/" }
+      ,{ text: "备用地址", link: "/wiki" }
+      ,{ text: "赞助废物作者", link: "/money" }
+      ,{ text: "鸣谢", link: "/thanks"}
+    ],
     sidebar: [
       {
         text: "EasyBot介绍",
