@@ -1,17 +1,34 @@
 // vitepress.config.js
 import { defineConfig } from "vitepress";
 
+
+const generateICPLink = (): string => {
+  return `<p class="site_police">
+  <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer nofollow">
+    冀公网安备13058202001917号 - 冀ICP备2023038642号-1
+  </a>
+</p>`;
+};
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "EasyBot wiki",
   description: "一个很棒的我的世界服务器互通机器人",
+  head: [
+    ["link", { rel: "stylesheet", href: "beian.css" }],
+    ["script", { src: "beian.js" }],
+  ],
   themeConfig: {
+    footer: {
+      copyright: generateICPLink(),
+    },
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/easybot.png',
-    nav: [{ text: "首页", link: "/" }
-      ,{ text: "备用地址", link: "/wiki" }
-      ,{ text: "赞助废物作者", link: "/money" }
-      ,{ text: "鸣谢", link: "/thanks"}
+    logo: "/easybot.png",
+    nav: [
+      { text: "首页", link: "/" },
+      { text: "备用地址", link: "/wiki" },
+      { text: "赞助废物作者", link: "/money" },
+      { text: "鸣谢", link: "/thanks" },
     ],
     sidebar: [
       {
@@ -25,11 +42,15 @@ export default defineConfig({
       {
         text: "快速开始",
         items: [
-          { text: "1.安装主程序", link: "/quick_start/download" , items:[
-            { text: 'Windows', link: '/quick_start/install/windows' },
-            { text: 'Liunx安装', link: '/quick_start/install/linux' },
-            { text: '部署到容器', link: '/quick_start/install/docker' }
-          ]},
+          {
+            text: "1.安装主程序",
+            link: "/quick_start/download",
+            items: [
+              { text: "Windows", link: "/quick_start/install/windows" },
+              { text: "Liunx安装", link: "/quick_start/install/linux" },
+              { text: "部署到容器", link: "/quick_start/install/docker" },
+            ],
+          },
           {
             text: "2.安装服务器插件",
             link: "/quick_start/plugin",
@@ -44,8 +65,9 @@ export default defineConfig({
             ],
           },
           {
-            text: "4.启用群聊", link: "/quick_start/enable_group"
-          }
+            text: "4.启用群聊",
+            link: "/quick_start/enable_group",
+          },
         ],
       },
       {
@@ -73,10 +95,10 @@ export default defineConfig({
           { text: "崩溃以及常见问题解决方案", link: "/bug" },
           { text: "PlaceholderApi变量", link: "/api" },
           { text: "赞助废物作者", link: "/money" },
-          { text: "备用地址", link: "/wiki" }
+          { text: "备用地址", link: "/wiki" },
         ], // 添加逗号来分隔项
       },
-      {text: "鸣谢", link: "/thanks"}
+      { text: "鸣谢", link: "/thanks" },
     ],
 
     socialLinks: [
