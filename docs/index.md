@@ -31,3 +31,7 @@ features:
     title: 灵活的绑定机制
     details: EasyBot提供了多样化的账号绑定选项，确保玩家与社区间的紧密联系
 ---
+
+<div align="center">
+   <img src="https://count.kjchmc.cn/get/@:easybot" alt="计数器">
+</div>
