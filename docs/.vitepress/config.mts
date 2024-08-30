@@ -1,27 +1,14 @@
 // vitepress.config.js
 import { defineConfig } from "vitepress";
 
-
-const generateICPLink = (): string => {
-  return `<p class="site_police">
-  <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer nofollow">
-    冀公网安备13058202001917号 - 冀ICP备2023038642号-1
-  </a>
-</p>`;
-};
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "EasyBot wiki",
   description: "一个很棒的我的世界服务器互通机器人",
   head: [
     ["link", { rel: "stylesheet", href: "beian.css" }],
-    ["script", { src: "beian.js" }],
   ],
   themeConfig: {
-    footer: {
-      copyright: generateICPLink(),
-    },
     // https://vitepress.dev/reference/default-theme-config
     logo: "/easybot.png",
     nav: [
