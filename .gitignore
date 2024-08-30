@@ -9,3 +9,4 @@ _multiconfig.yml
 docs/.vitepress/dist/*
 docs/.vitepress/cache/*
 docs/.vitepress/cache/deps/*
+./packge-lock.json
