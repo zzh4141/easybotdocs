@@ -104,9 +104,9 @@ services:
       - WEB_HOST=http://0.0.0.0:5000
     restart: always
     volumes:
-      - /napcat/config:/app/napcat/config
-      - /ntqq/qq:/root/.config/QQ
-      - /EasyBot:/data
+      - ./napcat/config:/app/napcat/config
+      - ./napcat/qq:/root/.config/QQ
+      - ./EasyBot:/data
     ports:
       - "6099:6099"
       - "5000:5000"
