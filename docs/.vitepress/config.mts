@@ -5,13 +5,39 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "EasyBot wiki",
   description: "一个很棒的我的世界服务器互通机器人",
+  head: [["link", { rel: "stylesheet", href: "beian.css" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/easybot.png',
-    nav: [{ text: "首页", link: "/" }
-      ,{ text: "备用地址", link: "/wiki" }
-      ,{ text: "赞助废物作者", link: "/money" }
-      ,{ text: "鸣谢", link: "/thanks"}
+    logo: "/easybot.png",
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    nav: [
+      { text: "首页", link: "/" },
+      { text: "备用地址", link: "/wiki" },
+      { text: "赞助废物作者", link: "/money" },
+      { text: "鸣谢", link: "/thanks" },
+      { text: "QQ交流群", link: "/qq" },
     ],
     sidebar: [
       {
@@ -25,11 +51,15 @@ export default defineConfig({
       {
         text: "快速开始",
         items: [
-          { text: "1.安装主程序", link: "/quick_start/download" , items:[
-            { text: 'Windows', link: '/quick_start/install/windows' },
-            { text: 'Liunx安装', link: '/quick_start/install/linux' },
-            { text: '部署到容器', link: '/quick_start/install/docker' }
-          ]},
+          {
+            text: "1.安装主程序",
+            link: "/quick_start/download",
+            items: [
+              { text: "Windows", link: "/quick_start/install/windows" },
+              { text: "Liunx安装", link: "/quick_start/install/linux" },
+              { text: "部署到容器", link: "/quick_start/install/docker" },
+            ],
+          },
           {
             text: "2.安装服务器插件",
             link: "/quick_start/plugin",
@@ -44,8 +74,9 @@ export default defineConfig({
             ],
           },
           {
-            text: "4.启用群聊", link: "/quick_start/enable_group"
-          }
+            text: "4.启用群聊",
+            link: "/quick_start/enable_group",
+          },
         ],
       },
       {
@@ -73,10 +104,11 @@ export default defineConfig({
           { text: "崩溃以及常见问题解决方案", link: "/bug" },
           { text: "PlaceholderApi变量", link: "/api" },
           { text: "赞助废物作者", link: "/money" },
-          { text: "备用地址", link: "/wiki" }
+          { text: "备用地址", link: "/wiki" },
+          { text: "QQ交流群", link: "/qq" }
         ], // 添加逗号来分隔项
       },
-      {text: "鸣谢", link: "/thanks"}
+      { text: "鸣谢", link: "/thanks" },
     ],
 
     socialLinks: [

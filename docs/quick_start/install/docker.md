@@ -16,9 +16,6 @@ dateCreated: 2024-08-18T06:40:00.004Z
 > 注意，此教程仅适用于Linux上的docker 如需在windows上使用docker请根据此教程的部分地方来进行改变
 > 此教程不推荐小白上手,如需上手，请确保您有一定的Linux基础
 
-> [!CAUTION]
-> 注意容器有一个会丢失配置的问题，请一定不要删除容器启动
-
 ### 1.我们将使用需要一键安装docker并更换源仓库进行加速
 
 ●支持 Debian / Ubuntu / RHEL / CentOS / Fedora 等
