@@ -8,7 +8,11 @@ check_docker() {
         echo "false"
     fi
 }
-
+RED_COLOR='\e[1;31m'
+GREEN_COLOR='\e[1;32m'
+RES='\e[0m'
+DOCKER=$(docker -v)
+COMPOSE=$(docker-compose -v)
 
 # 检查docker-compose是否安装
 check_compose() {
@@ -97,9 +101,75 @@ use_docker() {
     daemon
     clear
     service docker restart
-    echo "启动docker"
-    docker -v
-    docker-compose -v
+    echo -e "\r\n${GREEN_COLOR}启动docker"
+    echo -e "docker版本、${DOCKER}"
+    echo -e "Docker Compose版本、${COMPOSE}"
+    echo -e "${RES}"
+    
+}
+
+
+# 使用easybot
+EasyBot() {
+    cat > docker-compose.yml <<EOF
+version: '3'
+services:
+  easybot:
+    image: xrcuor/easybot:napcat
+    container_name: easybot
+    environment:
+      - ACCOUNT=$account # 机器人qq
+      - WS_ENABLE=true # 正向 WS
+      - TOKEN=1234 # access_token，可以为空
+      - WEBUI_TOKEN=wscc # 登录密钥，默认是自动生成的随机登录密码
+      - WEB_HOST=http://0.0.0.0:5000
+    restart: always
+    volumes:
+      - ./napcat/config:/app/napcat/config
+      - ./ntqq/qq:/root/.config/QQ
+      - ./EasyBot:/data
+    ports:
+      - "6099:6099"
+      - "5000:5000"
+      - "5001:5001"
+EOF
+}
+
+
+use_easybot() {
+    echo -e "配置 easybot Service"
+    Set_Dir
+    RUN_BASE_DIR=$PANEL_BASE_DIR/easybot
+    mkdir -p "$RUN_BASE_DIR"
+    cd "$RUN_BASE_DIR"
+    echo -e "您选择的安装路径为 $RUN_BASE_DIR"
+    read -p "请输入机器人QQ号: " account
+    EasyBot
+    clear
+    sleep 3
+    echo -e "正在启动 easybot..."
+    docker-compose up -d
+    echo -e "easybot 启动成功！" 
+}
+
+function Set_Dir(){
+    if read -t 120 -p "设置 easybot 安装目录（默认为/app）：" PANEL_BASE_DIR;then
+        if [[ "$PANEL_BASE_DIR" != "" ]];then
+            if [[ "$PANEL_BASE_DIR" != /* ]];then
+                echo -e "请输入目录的完整路径"
+                Set_Dir
+            fi
+
+            if [[ ! -d $PANEL_BASE_DIR ]];then
+                mkdir -p "$PANEL_BASE_DIR"
+            fi
+        else
+            PANEL_BASE_DIR=/app
+        fi
+    else
+        PANEL_BASE_DIR=/app
+        echo -e "(设置超时，使用默认安装路径 /app)"
+    fi
 }
 
 
@@ -108,6 +178,8 @@ while :
     do
         echo "0、退出"                      
         echo "1、安装Docker"
+        echo "2、安装easybot"
+        echo "3、登录"
         read -p "请选择: " input
         case ${input} in
         [0]*)
@@ -116,8 +188,17 @@ while :
         [1]*)
         use_docker
             ;;
+        [2]*)
+        use_easybot
+            ;;
+
+        [3]*)
+            docker logs easybot
+            ;;
+
         *)                                                              
             echo -e "\n\e[1;31m输入有误,请重新选择正确的选项!\e[0m\n"
             ;;
         esac
     done
+
