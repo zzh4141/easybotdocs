@@ -122,13 +122,13 @@ export default defineConfig({
         text: "EasyBot小教程",
         items: [
           { text: "为后台设置密码", link: "/教程_令牌登录" },
+          { text: "支持CMI", link: "/cmi" }
           //{ text: "修改主程序端口", link: "/教程__修改主程序端口" },
         ],
       },
       {
         text: "其他",
         items: [
-          { text: "崩溃以及常见问题解决方案", link: "/bug" },
           { text: "PlaceholderApi变量", link: "/api" },
           { text: "赞助废物作者", link: "/money" },
           { text: "备用地址", link: "/wiki" },
