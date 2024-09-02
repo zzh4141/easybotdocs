@@ -23,6 +23,21 @@ check_compose() {
     fi
 }
 
+check() {
+    if [ "$(check_docker)" == "false" ]; then
+        echo -e "${RED_COLOR}Docker未安装，请先安装Docker${RES}"
+    else
+        echo -e "${GREEN_COLOR}Docker已安装，版本、${DOCKER}${RES}"
+    fi
+
+    if [ "$(check_compose)" == "false" ]; then
+        echo -e "${RED_COLOR}Docker Compose未安装，请先安装Docker Compose${RES}"
+    else
+        echo -e "${GREEN_COLOR}Docker Compose已安装，版本、${COMPOSE}${RES}"
+    fi
+}    
+
+
 
 # 检测包管理器
 detect_package_manager() {
@@ -78,8 +93,7 @@ use_docker() {
     install
     # 检查Docker是否安装
     if [ "$(check_docker)" == "false" ]; then
-        echo "Docker未安装，开始安装Docker..."  
-        #      
+        echo "Docker未安装，开始安装Docker..."
         curl -fsSL https://gitee.com/tech-shrimp/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
         service docker start
         echo "Docker安装完成！"
@@ -98,12 +112,14 @@ use_docker() {
     else
         echo "Docker Compose已安装！"
     fi
+    WBT=$(docker -v)
+    GE=$(docker-compose -v)
     daemon
     clear
     service docker restart
     echo -e "\r\n${GREEN_COLOR}启动docker"
-    echo -e "docker版本、${DOCKER}"
-    echo -e "Docker Compose版本、${COMPOSE}"
+    echo -e "docker版本、${WBT}"
+    echo -e "Docker Compose版本、${GE}"
     echo -e "${RES}"
     
 }
@@ -137,6 +153,7 @@ EOF
 
 
 use_easybot() {
+    check
     echo -e "配置 easybot Service"
     Set_Dir
     RUN_BASE_DIR=$PANEL_BASE_DIR/easybot
@@ -152,7 +169,7 @@ use_easybot() {
     echo -e "easybot 启动成功！" 
 }
 
-function Set_Dir(){
+Set_Dir(){
     if read -t 120 -p "设置 easybot 安装目录（默认为/app）：" PANEL_BASE_DIR;then
         if [[ "$PANEL_BASE_DIR" != "" ]];then
             if [[ "$PANEL_BASE_DIR" != /* ]];then
@@ -174,31 +191,44 @@ function Set_Dir(){
 
 
 
-while :
-    do
+
+main(){
+    check    
+    while :
+        do
         echo "0、退出"                      
         echo "1、安装Docker"
-        echo "2、安装easybot"
+        echo "2、安装easybot"  
         echo "3、登录"
+        echo "4、启动easybot"
+        echo "5、停止easybot"
         read -p "请选择: " input
         case ${input} in
-        [0]*)
+            [0]*)
             break
-            ;;
-        [1]*)
-        use_docker
-            ;;
-        [2]*)
-        use_easybot
-            ;;
-
-        [3]*)
+                ;;
+            [1]*)
+            use_docker
+                ;;
+            [2]*)
+            use_easybot
+                ;;
+            [3]*)
             docker logs easybot
-            ;;
-
-        *)                                                              
+                ;;
+            [4]*)
+            docker start easybot
+                ;;
+            [5]*)
+            docker stop easybot
+                ;;        
+            *)                                                              
             echo -e "\n\e[1;31m输入有误,请重新选择正确的选项!\e[0m\n"
-            ;;
+                ;;
         esac
     done
+}
+
+main
+
 
