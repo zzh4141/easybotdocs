@@ -21,11 +21,12 @@ dateCreated: 2024-08-17T12:33:04.385Z
 
 ## 2.将插件添加到支持的服务器中
 
-> 演示用的服务器是 1.20.4-Paper
+> [!IMPORTANT] 注意
+> 演示用的服务器是 1.12.2 - CatServer   
 > 想知道是否支持你的服务器? [请点击我去查看](/vies)
 > {.is-info}
 
-![imag25e.webp](/imag25e.webp)
+![img](/quick_start/img/Snipaste_2024-09-03_06-24-36.png)
 
 ## 3.在机器人服务器列表中添加一个服务器并设置身份标识
 
@@ -42,7 +43,14 @@ dateCreated: 2024-08-17T12:33:04.385Z
 
 #### 1.启动服务器
 
-#### 2.打开配置文件![image11.webp](/image11.webp)
+> [!IMPORTANT] 注意
+> 首次启动服务器会提示未设置Token的报错     
+> 首次配置好后需要重启服务器    
+> 后续更改配置可使用`/easybot reload`
+
+#### 2.打开配置文件
+
+> 打开EasyBot生成的配置文件`./plugins/EasyBot/config.yml`
 
 #### 3.配置地址和身份标识
 
@@ -50,31 +58,23 @@ dateCreated: 2024-08-17T12:33:04.385Z
 ![im88age.webp](/im88age.webp)
 打开文件后修改以下信息:
 
-```js
+```yml {3}
+...
 service:
-  # 运行EasyBot主程序电脑的地址
-  host: "localhost"
-  # EasyBot主程序启动的端口
-  port: 5001
-  # 身份标识,请在服务器生成
-  # 身份标识请使用双引号包裹
-  token: "这里修改为你的身份标识"
+  token: "设置为你的Token"
+...
 ```
 
 ## 关于服务器地址
 
-如果你的服务器和机器人主程序在同一台电脑,则无需修改
-
-> 如果你机器人主程序和服务器恰好不在一台电脑，请将 IP 设置为运行 EasyBot 主程序电脑的地址
-> 打开 CMD 输入 curl ipinfo.io 即可获取自己的 IP
-> {.is-info}
+![IMG](/migrate/imgs/Snipaste_2024-09-03_05-27-18.png)
 
 ## 验证
 
-启动服务器后观察日志,出现这两行表示成功
-![imag95e.webp](/imag95e.webp)
+启动服务器后观察日志,出现`身份验证成功! 服务器名: xxx`表示插件正常工作!
+![IMG](/quick_start/img/连接测试_服务器.png)
 此时可以在主程序测试通讯
-![im78age.webp](/im78age.webp)
+![IMG](/quick_start/img/连接测试_软件.png)
 
 ## 出现错误了怎么办?
 

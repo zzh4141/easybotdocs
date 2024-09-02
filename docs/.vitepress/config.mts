@@ -122,7 +122,7 @@ export default defineConfig({
         text: "EasyBot小教程",
         items: [
           { text: "为后台设置密码", link: "/教程_令牌登录" },
-          { text: "修改主程序端口", link: "/教程__修改主程序端口" },
+          //{ text: "修改主程序端口", link: "/教程__修改主程序端口" },
         ],
       },
       {

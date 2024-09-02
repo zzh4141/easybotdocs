@@ -22,16 +22,23 @@ dateCreated: 2024-08-17T10:37:05.776Z
 > 如果你遇到类似的问题，比如软件启动后出现白屏，那你可能是直接使用了更新包。
 
 > [!IMPORTANT] 迁移教程
-> 1.2.0主程序已经发布,主程序结构有所变化,文档已经更新到新版,从1.1.0迁移到1.2.0请看
+> 1.2.0 主程序已经发布,主程序结构有所变化,文档已经更新到新版,从 1.1.0 迁移到 1.2.0 请看
+>
 > <iframe src="//player.bilibili.com/player.html?bvid=BV1jkHJeaE9U&high_quality=1&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="300px" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 >
-> [📕文档迁移教程](/migrate/index) | [📹视频迁移教程](https://www.bilibili.com/video/BV1jkHJeaE9U/)
+> [📕 文档迁移教程](/migrate/index) | [📹 视频迁移教程](https://www.bilibili.com/video/BV1jkHJeaE9U/)
+
+> [!DANGER] 注意 (如果你只是想要下载最新版,请忽略此段 )  
+> `如果您尝试将1.1.0升级到1.2.0,请看上面的教程!`  
+> `如果您尝试将1.1.0升级到1.2.0,请看上面的教程!`  
+> `如果您尝试将1.1.0升级到1.2.0,请看上面的教程!`        
+> 为确保不出现问题,部分旧版本在短期内会开放下载,新用户请下载最新版本
 
 ## 主程序下载
 
 | 版本名     | 发布时间         | 下载节点                                                                                                                                                                                                                                                                                                   |
 | ---------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.2.0      | 24 年 9 月 1 日  | [\[Win\]](https://s.yingen.top/EasyBot/App/EasyBot-Installer-1.2.0.exe) [\[Linux\]](https://s.yingen.top/EasyBot/App/EasyBot_linux_1_2_0.tar.xz) - [\[Win(更新包)\]](https://s.yingen.top/更新包/EasyBot_1_2_0_update.zip)                                                         |
+| 1.2.0      | 24 年 9 月 1 日  | [\[Win\]](https://s.yingen.top/EasyBot/App/EasyBot-Installer-1.2.0.exe) [\[Linux\]](https://s.yingen.top/EasyBot/App/EasyBot_linux_1_2_0.tar.xz) - [\[Win(更新包)\]](https://s.yingen.top/更新包/EasyBot_1_2_0_update.zip)                                                                                 |
 | 1.1.0-fix2 | 24 年 8 月 19 日 | [\[Win\]](https://s.yingen.top/EasyBot/App/EasyBot-Installer-1.1.0-fix2.exe) [\[Linux\]](https://s.yingen.top/EasyBot/App/EasyBot_linux_1_1_0_fix2.tar.xz) - [\[Win(更新包,小白别下)\]](https://s.yingen.top/更新包/EasyBot_1_1_0_fix2_update.zip) <label style="color:red">(与 v1.9.0 插件不兼容)</label> |
 | 1.1.0-fix1 | 24 年 8 月 18 日 | [\[Win\]](https://s.yingen.top/EasyBot/App/EasyBot-Installer-1.1.0-fix1.exe) [\[Linux\]](https://s.yingen.top/EasyBot/App/EasyBot_linux_1_1_0_fix1.tar.xz) - [\[Win(更新包,小白别下)\]](https://s.yingen.top/更新包/EasyBot_1_1_0_fix1_update.zip) <label style="color:red">(与 v1.9.0 插件不兼容)</label> |
 | 1.1.0      | 24 年 7 月 19 日 | [\[Win\]](https://s.yingen.top/EasyBot/App/EasyBot-Installer-1.1.0.exe) [\[Linux\]](https://s.yingen.top/EasyBot/App/EasyBot-Linux-1.1.0.tar.xz) - [\[Win(更新包,小白别下)\]](https://s.yingen.top/EasyBot/更新包/EasyBot_1_1_0_update.zip) <label style="color:red">(与 v1.9.0 插件不兼容)</label>        |

@@ -51,7 +51,7 @@ dateCreated: 2024-08-17T11:08:23.123Z
 
 安装好后按下 Win 键 搜索 EasyBot 即可打开程序
 ![im1age.webp](/im1age.webp)
-![im22age.webp](/im22age.webp)
+![im22age.webp](/quick_start/img/主程序启动成功.png)
 ![imag5e.webp](/imag5e.webp)
 至此你已经成功的完成了主程序的安装
 {.is-success}
