@@ -1,36 +1,59 @@
 // vitepress.config.js
 import { defineConfig } from "vitepress";
+import mdItCustomAttrs from "markdown-it-custom-attrs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "EasyBot wiki",
   description: "一个很棒的我的世界服务器互通机器人",
-  head: [["link", { rel: "stylesheet", href: "beian.css" }]],
+  head: [
+    ["link", { rel: "stylesheet", href: "beian.css" }],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css",
+      },
+    ],
+    [
+      "script",
+      {
+        src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js",
+      },
+    ],
+  ],
+  markdown: {
+    config(md) {
+      md.use(mdItCustomAttrs, "image", {
+        "data-fancybox": "gallery",
+      });
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/easybot.png",
     search: {
-      provider: 'local',
+      provider: "local",
       options: {
         locales: {
           root: {
             translations: {
               button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
+                buttonText: "搜索文档",
+                buttonAriaLabel: "搜索文档",
               },
               modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
+                noResultsText: "无法找到相关结果",
+                resetButtonTitle: "清除查询条件",
                 footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                }
-              }
-            }
-          }
-        }
-      }
+                  selectText: "选择",
+                  navigateText: "切换",
+                },
+              },
+            },
+          },
+        },
+      },
     },
     nav: [
       { text: "首页", link: "/" },
@@ -105,7 +128,7 @@ export default defineConfig({
           { text: "PlaceholderApi变量", link: "/api" },
           { text: "赞助废物作者", link: "/money" },
           { text: "备用地址", link: "/wiki" },
-          { text: "QQ交流群", link: "/qq" }
+          { text: "QQ交流群", link: "/qq" },
         ], // 添加逗号来分隔项
       },
       { text: "鸣谢", link: "/thanks" },
