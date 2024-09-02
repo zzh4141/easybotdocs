@@ -72,6 +72,10 @@ export default defineConfig({
         ],
       },
       {
+        text: "迁移教程",
+        items: [{ text: "EasyBot 迁移教程", link: "/migrate/index" }],
+      },
+      {
         text: "快速开始",
         items: [
           {
