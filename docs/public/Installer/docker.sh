@@ -138,7 +138,8 @@ services:
       - WS_ENABLE=true # 正向 WS
       - TOKEN=1234 # access_token，可以为空
       - WEBUI_TOKEN=wscc # 登录密钥，默认是自动生成的随机登录密码
-      - WEB_HOST=http://0.0.0.0:5000
+      - SERVER_HOST=0.0.0.0 # WebSocket服务器地址
+      - SERVER_PORT=26990 # WebSocket服务器端口
     restart: always
     volumes:
       - ./napcat/config:/app/napcat/config
