@@ -32,7 +32,15 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/easybot.png",
-    search: {
+  lastUpdated: true, // 或者你可以指定一个字段名如 'lastUpdated'
+  themeConfig: {
+    text: '最后更新', // 可以自定义显示的文字
+  },
+    editLink: {
+    pattern: 'https://github.com/zzh4141/easybotdocs/edit/main/docs/:path',
+    text: '在 github 上编辑此页'
+  },
+  search: {
       provider: "local",
       options: {
         locales: {

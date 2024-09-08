@@ -24,7 +24,7 @@ features:
     details: EasyBot能够无缝地将信息从一个平台或服务器传输至其他多个平台或服务器，实现跨平台的即时通讯
 
   - icon: 🔗
-    title: 多服务器协同管理z
+    title: 多服务器协同管理
     details: 对于运营多个服务器的群体而言，EasyBot提供了统一的管理界面，实现跨服务器的高效协调
 
   - icon: 🔐
