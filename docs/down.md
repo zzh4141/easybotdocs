@@ -59,6 +59,7 @@ dateCreated: 2024-08-17T10:37:05.776Z
 
 | 版本名 | 发布时间         | 下载节点                                                                                                                        |
 | ------ | ---------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 1.9.2  | 24 年 10 月 2 日  | [\[点我下载\]](https://s.yingen.top/EasyBot/Plugin/EasyBot-1.9.2.jar) <label style="color:green">(推荐下载)</label>             |
 | 1.9.1  | 24 年 9 月 3 日  | [\[点我下载\]](https://s.yingen.top/EasyBot/Plugin/EasyBot-1.9.1.jar) <label style="color:green">(推荐下载)</label>             |
 | 1.9.0  | 24 年 9 月 1 日  | [\[点我下载\]](https://s.yingen.top/EasyBot/Plugin/EasyBot-1.9.0.jar)                                                           |
 | 1.8.3  | 24 年 8 月 11 日 | [\[点我下载\]](https://s.yingen.top/EasyBot/Plugin/EasyBot-1.8.3.jar) <label style="color:red">(与 v1.2.0 主程序不兼容)</label> |
