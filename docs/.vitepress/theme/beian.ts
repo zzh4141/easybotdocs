@@ -3,7 +3,7 @@ function createFooter(): HTMLDivElement {
   ele.innerHTML = `
   <p class="site_police" style="text-align: center; margin: 20px 0;">
     <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer nofollow">
-      冀公网安备13058202001917号 - 冀ICP备2023038642号-1
+      冀公网安备13058202001938号 - 冀ICP备2023038642号-2
     </a>
   </p>`;
   return ele;
@@ -11,7 +11,7 @@ function createFooter(): HTMLDivElement {
 
 export function reinjectFooter(): void {
   const hostname = window.location.hostname;
-  const allowedHosts = ["localhost", "127.0.0.1", "d.yingen.top"];
+  const allowedHosts = ["localhost", "127.0.0.1", "easywiki.saklit.com"];
   if (!allowedHosts.includes(hostname)) {
     return; // 当前域名不在允许列表中，不进行操作
   }
