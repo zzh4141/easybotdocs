@@ -21,36 +21,24 @@ dateCreated: 2024-08-17T10:37:05.776Z
 > 如果你是小白，请注意：直接下载更新包并尝试使用可能会导致软件无法正常运行。
 > 如果你遇到类似的问题，比如软件启动后出现白屏，那你可能是直接使用了更新包。
 
-> [!IMPORTANT] 迁移教程
-> 1.2.0 主程序已经发布,主程序结构有所变化,文档已经更新到新版,从 1.1.0 迁移到 1.2.0 请看
->
-> <iframe src="//player.bilibili.com/player.html?bvid=BV1jkHJeaE9U&high_quality=1&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="300px" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
->
-> [📕 文档迁移教程](/migrate/index) | [📹 视频迁移教程](https://www.bilibili.com/video/BV1jkHJeaE9U/)
-
-> [!DANGER] 注意 (如果你只是想要下载最新版,请忽略此段 )  
-> `如果您尝试将1.1.0升级到1.2.0,请看上面的教程!`  
-> `如果您尝试将1.1.0升级到1.2.0,请看上面的教程!`  
-> `如果您尝试将1.1.0升级到1.2.0,请看上面的教程!`  
-> 为确保不出现问题,部分旧版本在短期内会开放下载,新用户请下载最新版本
-
 ## 主程序下载
 
 | 版本名     | 发布时间          | 下载节点                                                                                                                                                                                                                                                                  |
 | ---------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.2.1      | 24 年 10 月 10 日 | [\[Win\]](https://alist.saklit.com/d/EasyBot/App/EasyBot-Installer-1.2.1.exe) [\[Linux\]](https://alist.saklit.com/d/EasyBot/App/EasyBot-Linux-1.2.1.tar.xz) - [\[Win(更新包)\]](https://alist.saklit.com/d/EasyBot/%E6%9B%B4%E6%96%B0%E5%8C%85/EasyBot_1_2_1_update.zip) |
-| 1.2.0      | 24 年 9 月 1 日   |                                                                                                                                                                                                                                                                           |
-| 1.1.0-fix2 | 24 年 8 月 19 日  | -                                                                                                                                                                                                                                                                         |
-| 1.1.0-fix1 | 24 年 8 月 18 日  | -                                                                                                                                                                                                                                                                         |
-| 1.1.0      | 24 年 7 月 19 日  | -                                                                                                                                                                                                                                                                         |
-| 1.0.7      | 24 年 6 月 1 日   | -                                                                                                                                                                                                                                                                         |
-| 1.0.6      | 24 年 5 月 20 日  | -                                                                                                                                                                                                                                                                         |
-| 0.1.5      | 24 年 5 月 5 日   | -                                                                                                                                                                                                                                                                         |
-| 0.1.4      | 24 年 4 月 28 日  | -                                                                                                                                                                                                                                                                         |
-| 0.1.3      | 24 年 4 月 19 日  | -                                                                                                                                                                                                                                                                         |
-| 0.1.2      | 24 年 4 月 17 日  | -                                                                                                                                                                                                                                                                         |
-| 0.1.1      | 24 年 4 月 16 日  | -                                                                                                                                                                                                                                                                         |
-| 0.1.0      | 24 年 4 月 13 日  | -                                                                                                                                                                                                                                                                         |
+| 1.2.1-fix1 | 24 年 10 月 10 日 | [\[Win\]](https://alist.saklit.com/d/EasyBot/App/EasyBot-Installer-1.2.1-fix1.exe) [\[Linux\]](https://alist.saklit.com/d/EasyBot/App/EasyBot-Linux-1.2.1-fix1.tar.xz) - [\[Win(更新包)\]](https://alist.saklit.com/d/EasyBot/%E6%9B%B4%E6%96%B0%E5%8C%85/EasyBot_1_2_1_fix1_update.zip) |
+| 1.2.1      | 24 年 10 月 10 日 | <label style="color:gray">(版本已过时)</label> |
+| 1.2.0      | 24 年 9 月 1 日   | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 1.1.0-fix2 | 24 年 8 月 19 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 1.1.0-fix1 | 24 年 8 月 18 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 1.1.0      | 24 年 7 月 19 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 1.0.7      | 24 年 6 月 1 日   | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 1.0.6      | 24 年 5 月 20 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 0.1.5      | 24 年 5 月 5 日   | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 0.1.4      | 24 年 4 月 28 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 0.1.3      | 24 年 4 月 19 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 0.1.2      | 24 年 4 月 17 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 0.1.1      | 24 年 4 月 16 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
+| 0.1.0      | 24 年 4 月 13 日  | <label style="color:gray">(版本已过时)</label>                                                                                                                                                                                                                            |
 
 ## ⚡ EasyBot - 服务器插件下载
 
@@ -58,21 +46,24 @@ dateCreated: 2024-08-17T10:37:05.776Z
 > 1.9.0 开始的后续版本理论支持 1.9 以上所有版本，如果你的服务端是 1.9 以上遇到 BUG 请积极反馈，群主要是不给你兼容你就打死群主！
 > {.is-warning}
 
-| 版本名 | 发布时间         | 下载节点                                                                                                                  |
-| ------ | ---------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| 1.9.2  | 24 年 10 月 2 日 | [\[点我下载\]](https://alist.saklit.com/d/EasyBot/Plugin/EasyBot-1.9.2.jar) <label style="color:green">(推荐下载)</label> |
-| 1.9.1  | 24 年 9 月 3 日  | -                                                                                                                         |
-| 1.9.0  | 24 年 9 月 1 日  | -                                                                                                                         |
-| 1.8.3  | 24 年 8 月 11 日 | -                                                                                                                         |
-| 1.8.2  | 24 年 8 月 10 日 | -                                                                                                                         |
-| 1.8.1  | 24 年 7 月 20 日 | -                                                                                                                         |
-| 1.8.0  | 24 年 7 月 19 日 | -                                                                                                                         |
-| 1.7.2  | 24 年 7 月 10 日 | -                                                                                                                         |
-| 1.7.1  | 24 年 6 月 12 日 | -                                                                                                                         |
-| 1.7.0  | 24 年 6 月 1 日  | -                                                                                                                         |
-| 1.5    | 24 年 5 月 29 日 | -                                                                                                                         |
-| 1.4    | 24 年 5 月 20 日 | -                                                                                                                         |
-| 1.3    | 24 年 4 月 21 日 | -                                                                                                                         |
-| 1.2    | 24 年 4 月 20 日 | -                                                                                                                         |
-| 1.1    | 24 年 4 月 16 日 | -                                                                                                                         |
-| 1.0    | 24 年 4 月 14 日 | -                                                                                                                         |
+| 版本名 | 发布时间          | 下载节点                                                                                                                  |
+| ------ | ----------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1.9.5  | 24 年 11 月 11 日 | [\[点我下载\]](https://alist.saklit.com/d/EasyBot/Plugin/EasyBot-1.9.5.jar) <label style="color:green">(推荐下载)</label> |
+| 1.9.4  | 24 年 11 月 6 日  | [\[点我下载\]](https://alist.saklit.com/d/EasyBot/Plugin/EasyBot-1.9.4.jar)                                               |
+| 1.9.3  | 24 年 11 月 1 日  | [\[点我下载\]](https://alist.saklit.com/d/EasyBot/Plugin/EasyBot-1.9.3.jar)                                               |
+| 1.9.2  | 24 年 10 月 2 日  | [\[点我下载\]](https://alist.saklit.com/d/EasyBot/Plugin/EasyBot-1.9.2.jar)                                               |
+| 1.9.1  | 24 年 9 月 3 日   | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.9.0  | 24 年 9 月 1 日   | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.8.3  | 24 年 8 月 11 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.8.2  | 24 年 8 月 10 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.8.1  | 24 年 7 月 20 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.8.0  | 24 年 7 月 19 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.7.2  | 24 年 7 月 10 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.7.1  | 24 年 6 月 12 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.7.0  | 24 年 6 月 1 日   | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.5    | 24 年 5 月 29 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.4    | 24 年 5 月 20 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.3    | 24 年 4 月 21 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.2    | 24 年 4 月 20 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.1    | 24 年 4 月 16 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
+| 1.0    | 24 年 4 月 14 日  | <label style="color:gray">(版本已过时)</label>                                                                            |
