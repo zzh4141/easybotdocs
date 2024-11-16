@@ -14,7 +14,7 @@
 > 可以让你在 QQNT 中运行各种插件
 
 > [!TIP] 自动安装器
-> 从Github下载对应你的系统的安装程序,打开提示安装成功即可       
+> 从 GitHub 下载对应你的系统的安装程序，打开提示安装成功即可       
 > 👉👉👉[点我下载](https://github.com/Mzdyl/LiteLoaderQQNT_Install/releases/latest)👈👈👈
 
 ### 1.1 打开NTQQ确认一下
@@ -27,23 +27,23 @@
 
 ## 2.安装LLOneBot插件
 
-你说得对, 但是LLOneBot是一款.. 后面全忘了
+你说得对， 但是 LLOneBot 是一款.. 后面全忘了
 
-前往Github下载最新版的Release
+前往 GitHub 下载最新版的Release
 
 <https://github.com/LLOneBot/LLOneBot/releases>![](/attachments/教程__兼容器连接到LLOneBot_004.png)
 
 ### 2.1 打开LiteLoaderQQNT插件路径
 
-打开QQ设置,LiteloaderQQNT
+打开QQ设置，LiteloaderQQNT
 
 ![](/attachments/教程__兼容器连接到LLOneBot_005.png)
 
-打开后,进入Plugins目录
+打开后，进入Plugins目录
 
 ![](/attachments/教程__兼容器连接到LLOneBot_006.png)
 
-新建一个文件夹,叫LLOneBot
+新建一个文件夹，叫LLOneBot
 
 ![](/attachments/教程__兼容器连接到LLOneBot_007.png)
 
@@ -79,7 +79,7 @@
 
 ws://localhost:3001/
 
-AccessToken设置为LLOnebot设置的值即可,我的LLOnebot设置如下:
+AccessToken设置为LLOnebot设置的值即可，我的LLOnebot设置如下:
 
 ![](/attachments/教程__兼容器连接到LLOneBot_013.png)
 
@@ -91,5 +91,5 @@ AccessToken设置为LLOnebot设置的值即可,我的LLOnebot设置如下:
 
 ## ok
 
-至此你已完成LLOnebot的连接,以后启动主程序手动去连接就好了
+至此你已完成LLOnebot的连接，以后启动主程序手动去连接就好了
 

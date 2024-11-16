@@ -30,17 +30,17 @@ export default defineConfig({
     },
   },
 
-  "themeConfig": {
-    "logo": "/easybot.png",
-    "outlineTitle": "文章首页",
+  themeConfig: {
+    logo: "/easybot.png",
+    outlineTitle: "文章首页",
     lastUpdated: {
-      text: "最后更新"
+      text: "最后更新",
     },
-    "editLink": {
-      "pattern": "https://github.com/zzh4141/easybotdocs/edit/main/docs/:path",
-      "text": "在 github 上编辑此页"
+    editLink: {
+      pattern: "https://github.com/zzh4141/easybotdocs/edit/main/docs/:path",
+      text: "在 GitHub 上编辑此页",
     },
-  search: {
+    search: {
       provider: "local",
       options: {
         locales: {
@@ -72,11 +72,11 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: "EasyBot介绍",
+        text: "EasyBot 介绍",
         items: [
-          { text: "EasyBot工作流程", link: "/woke" },
-          { text: "EasyBot下载地址", link: "/down" },
-          { text: "EasyBot支持的服务器", link: "/vies" },
+          { text: "EasyBot 工作流程", link: "/woke" },
+          { text: "EasyBot 下载地址", link: "/down" },
+          { text: "EasyBot 支持的服务器", link: "/vies" },
         ],
       },
       {
@@ -115,7 +115,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "EasyBot功能",
+        text: "EasyBot 功能",
         items: [
           { text: "消息同步", link: "/消息同步" },
           { text: "退群自动解绑和退群消息", link: "/退群自动解绑和退群消息" },
@@ -127,20 +127,20 @@ export default defineConfig({
         ],
       },
       {
-        text: "EasyBot小教程",
+        text: "EasyBot 小教程",
         items: [
           { text: "为后台设置密码", link: "/教程_令牌登录" },
-          { text: "支持CMI", link: "/cmi" }
+          { text: "支持 CMI", link: "/cmi" },
           //{ text: "修改主程序端口", link: "/教程__修改主程序端口" },
         ],
       },
       {
         text: "其他",
         items: [
-          { text: "PlaceholderApi变量", link: "/api" },
+          { text: "PlaceholderAPI 变量", link: "/api" },
           { text: "赞助废物作者", link: "/money" },
           { text: "备用地址", link: "/wiki" },
-          { text: "QQ交流群", link: "/qq" },
+          { text: "QQ 交流群", link: "/qq" },
         ], // 添加逗号来分隔项
       },
       { text: "鸣谢", link: "/thanks" },

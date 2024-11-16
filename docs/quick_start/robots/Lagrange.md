@@ -13,17 +13,17 @@ dateCreated: 2024-08-18T06:40:26.978Z
 2. 启动然后修改配置文件
 3. 在主程序修改配置文件
 > [!CAUTION]
-> 请注意我们并不推你使用你使用拉格朗,如不别请尽量尽，请尽量不使用
+> 请注意我们并不推你使用你使用拉格朗，如不别请尽量尽，请尽量不使用
 
 
 
-使用拉格朗需要Sign服务器,请自行寻找。我们不提供Sign服务器！！
+使用拉格朗需要Sign服务器，请自行寻找。我们不提供Sign服务器！！
 
 # 1.下载或编译拉格朗
 
 ## 下载:
 
-如果你不会自己编译.net项目,可以前往拉格朗的发布地址直接下载发布版本:
+如果你不会自己编译.net项目，可以前往拉格朗的发布地址直接下载发布版本:
 
 <https://github.com/KonataDev/Lagrange.Core/releases>## 编译
 
@@ -50,7 +50,7 @@ dotnet publish -r win-x64 -c Release -f net8.0 #使用.net8.0生成
 ```
 dotnet publish -r win-x64 -c Release -f net7.0 #使用.net7.0生成
 ```
-任选一即可,前提是你要有对应版本的SDK
+任选一即可，前提是你要有对应版本的SDK
 
 # 2.启动然后修改配置文件
 
@@ -66,7 +66,7 @@ dotnet publish -r win-x64 -c Release -f net7.0 #使用.net7.0生成
 
 ### 修改配置文件
 
-打开生成的配置文件,应该可以看到如下内容,请根据图片修改
+打开生成的配置文件，应该可以看到如下内容，请根据图片修改
 
 ![](/attachments/教程__兼容器连接到Lagrange_004.png)
 
@@ -80,11 +80,11 @@ dotnet publish -r win-x64 -c Release -f net7.0 #使用.net7.0生成
 
 ```
 {
-  "Type": "ForwardWebSocket",
-  "Host": "127.0.0.1",
-  "Port": 2210,
-  "HeartBeatInterval": 5000 ,
-  "HeartBeatEnable": false,
+  "Type": "ForwardWebSocket"，
+  "Host": "127.0.0.1"，
+  "Port": 2210，
+  "HeartBeatInterval": 5000 ，
+  "HeartBeatEnable": false，
   "AccessToken": null
 }
 ```

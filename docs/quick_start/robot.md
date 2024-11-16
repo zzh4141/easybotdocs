@@ -8,7 +8,7 @@
 ## 实现程序安装教程
 
 > [!TIP] LLOneBot 
-> 如果你是小白,推荐使用LLOneBot     
+> 如果你是小白，推荐使用LLOneBot     
 > [LLOneBot安装](/quick_start/robots/LLOneBot)
 
 > [!CAUTION] Lagrange
@@ -16,5 +16,5 @@
 > [Lagrange安装](/quick_start/robots/Lagrange.md)
 
 ::: warning
-如果你将EasyBot部署到Docker容器中,请阅读 [容器部署](/quick_start/install/docker#_6-登录easybot)
+如果你将EasyBot部署到Docker容器中，请阅读 [容器部署](/quick_start/install/docker#_6-登录easybot)
 :::
