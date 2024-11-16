@@ -3,7 +3,6 @@ title: 支持的服务器版本
 description: EasyBot支持服务器版本
 published: true
 date: 2024-08-17T10:53:48.578Z
-tags: 支持的服务器版本
 editor: markdown
 dateCreated: 2024-08-17T10:45:58.108Z
 ---

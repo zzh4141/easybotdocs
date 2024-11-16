@@ -3,7 +3,6 @@ title: 赞助作者
 description: 赞助我们可怜的作者
 published: true
 date: 2024-08-18T07:17:06.784Z
-tags: 赞助
 editor: markdown
 dateCreated: 2024-08-18T07:17:06.784Z
 ---
@@ -15,12 +14,12 @@ dateCreated: 2024-08-18T07:17:06.784Z
 
 ## 微信
 
-![wx1.png](/wx1.png)
-![wx2.png](/wx2.png)
+![wx1.png](./img/wx1.png)
+![wx2.png](./img/wx2.png)
 
 ## 支付宝
 
-![zfb.png](/zfb.png)
+![zfb.png](./img/zfb.png)
 
 ## 爱发电
 

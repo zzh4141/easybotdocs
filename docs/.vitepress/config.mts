@@ -66,7 +66,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "备用地址", link: "/wiki" },
-      { text: "赞助废物作者", link: "/money" },
+      { text: "赞助作者", link: "/money" },
       { text: "鸣谢", link: "/thanks" },
       { text: "QQ交流群", link: "/qq" },
     ],
@@ -127,7 +127,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "EasyBot 小教程",
+        text: "EasyBot 小技巧",
         items: [
           { text: "为后台设置密码", link: "/教程_令牌登录" },
           { text: "支持 CMI", link: "/cmi" },
@@ -138,7 +138,7 @@ export default defineConfig({
         text: "其他",
         items: [
           { text: "PlaceholderAPI 变量", link: "/api" },
-          { text: "赞助废物作者", link: "/money" },
+          { text: "赞助作者", link: "/money" },
           { text: "备用地址", link: "/wiki" },
           { text: "QQ 交流群", link: "/qq" },
         ], // 添加逗号来分隔项

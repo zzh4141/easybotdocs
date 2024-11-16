@@ -1,9 +1,8 @@
 ---
-title: 使用Docker来安装EasyBot主程序+QQ机器人框架
+title: 使用 Docker 来安装 EasyBot 主程序 + QQ机器人框架
 description:
 published: true
 date: 2024-08-18T06:54:36.360Z
-tags:
 editor: markdown
 dateCreated: 2024-08-18T06:40:00.004Z
 ---

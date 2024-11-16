@@ -3,15 +3,13 @@ title: 工作流程
 description: easybot的工作流程
 published: true
 date: 2024-08-17T10:24:01.287Z
-tags: 工作流程
 editor: markdown
 dateCreated: 2024-08-17T10:23:57.632Z
 ---
 
 # EasyBot 工作流程
 
-EasyBot 工作图
-![yuque_diagram.png](/yuque_diagram.png)
+![EasyBot 工作图](./img/yuque_diagram.png)
 
 ## 主程序如何与 Minecraft 服务器交互?
 

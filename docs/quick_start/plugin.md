@@ -1,9 +1,8 @@
 ---
-title: 安装EasyBot服务器插件
-description: 安装EasyBot服务器插件
+title: 安装 EasyBot 服务器插件
+description: 安装 EasyBot 服务器插件
 published: true
 date: 2024-08-17T12:49:04.442Z
-tags: easybot服务器插件
 editor: markdown
 dateCreated: 2024-08-17T12:33:04.385Z
 ---
@@ -22,18 +21,20 @@ dateCreated: 2024-08-17T12:33:04.385Z
 ## 2.将插件添加到支持的服务器中
 
 > [!IMPORTANT] 注意
-> 演示用的服务器是 1.12.2 - CatServer   
+> 演示用的服务器是 1.12.2 - CatServer  
 > 想知道是否支持你的服务器? [请点击我去查看](/vies)
 > {.is-info}
 
-![img](/quick_start/img/Snipaste_2024-09-03_06-24-36.png)
+![img](./img/Snipaste_2024-09-03_06-24-36.png)
 
 ## 3.在机器人服务器列表中添加一个服务器并设置身份标识
 
 1. 打开主程序
 2. 进入服务器管理 -> 服务器列表
 3. 点击"+添加"并且设置名字和标识令牌即可
-   ![i8mage.webp](/i8mage.webp)![i77mage.webp](/i77mage.webp)![ima44ge.webp](/ima44ge.webp)
+![添加服务器按钮.webp](./img/添加服务器按钮.webp)
+![添加服务器.webp](./img/添加服务器.webp)
+![添加成功.webp](./img/添加成功.webp)
 
 ## 4.在服务器中配置 EasyBot 主程序地址以及身份标识
 
@@ -44,25 +45,25 @@ dateCreated: 2024-08-17T12:33:04.385Z
 #### 1.启动服务器
 
 > [!IMPORTANT] 注意
-> 首次启动服务器会提示未设置Token的报错     
-> 首次配置好后需要重启服务器    
+> 首次启动服务器会提示未设置 Token 的报错  
+> 首次配置好后需要重启服务器  
 > 后续更改配置可使用`/easybot reload`
 
 #### 2.打开配置文件
 
-> 打开EasyBot生成的配置文件`./plugins/EasyBot/config.yml`
+> 打开 EasyBot 生成的配置文件`./plugins/EasyBot/config.yml`
 
 #### 3.配置地址和身份标识
 
-你可以通过服务器列表中的"查看标识"来获取服务器的身份标识
-![im88age.webp](/im88age.webp)
+你可以通过服务器列表中的`查看标识`来获取服务器的身份标识
+![查看标识.webp](./img/查看标识.webp)
 打开文件后修改以下信息:
 
 ```yml {3}
-...
+
+---
 service:
   token: "设置为你的Token"
-...
 ```
 
 ## 关于服务器地址
@@ -72,9 +73,9 @@ service:
 ## 验证
 
 启动服务器后观察日志，出现`身份验证成功! 服务器名: xxx`表示插件正常工作!
-![IMG](/quick_start/img/连接测试_服务器.png)
+![IMG](./img/连接测试_服务器.png)
 此时可以在主程序测试通讯
-![IMG](/quick_start/img/连接测试_软件.png)
+![IMG](./img/连接测试_软件.png)
 
 ## 出现错误了怎么办?
 
@@ -84,4 +85,4 @@ service:
 ## 确认 Token 正确但提示 Token 错误
 
 检查你的配置 config.yml 确保 token 字段被双引号包裹！！
-![im44e.webp](/im44e.webp)
+![身份标识警告.webp](./img/身份标识警告.webp)

@@ -3,7 +3,6 @@ title: quick_start/install/linux
 description:
 published: true
 date: 2024-08-18T06:57:15.138Z
-tags:
 editor: markdown
 dateCreated: 2024-08-18T06:40:11.576Z
 ---

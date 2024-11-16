@@ -3,7 +3,6 @@ title: PlaceholderAPI 变量
 description: PlaceholderAPI 变量
 published: true
 date: 2024-08-18T05:45:37.382Z
-tags: PlaceholderAPI 变量
 editor: markdown
 dateCreated: 2024-08-18T05:45:32.520Z
 ---

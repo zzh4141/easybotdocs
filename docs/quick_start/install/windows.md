@@ -3,7 +3,6 @@ title: 安装EasyBot主程序
 description: 安装EasyBot主程序
 published: true
 date: 2024-08-17T11:08:26.743Z
-tags: 安装easybot主程序
 editor: markdown
 dateCreated: 2024-08-17T11:08:23.123Z
 ---
@@ -31,13 +30,13 @@ dateCreated: 2024-08-17T11:08:23.123Z
 
 ##### 如果你的服务器版本过旧，运行程序时可能会报类似的错误
 
-![1659048-20190719170427111-2034004772.png](/1659048-20190719170427111-2034004772.png)
+![缺失dotnet.png](./img/缺失dotnet.png)
 
 #### 解决方法
 
-解决方法非常简单，安装 VC++运行环境即可解决
+解决方法非常简单，安装 VC++ 运行环境即可解决
 点我下载: https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=48145
-![image.webp](/image.webp)
+![安装VC++.webp](./img/安装VC++.webp)
 
 # 第二步: 安装 EasyBot 主程序
 
@@ -50,8 +49,8 @@ dateCreated: 2024-08-17T11:08:23.123Z
 > 还是那句话: 安装程序是中文的，一路下一步即可安装完毕，提示安装成功就好了！
 
 安装好后按下 Win 键 搜索 EasyBot 即可打开程序
-![im1age.webp](/im1age.webp)
-![im22age.webp](/quick_start/img/主程序启动成功.png)
-![imag5e.webp](/imag5e.webp)
+![打开EasyBot.webp](./img/打开EasyBot.webp)
+![主程序启动成功.png](./img/主程序启动成功.png)
+![后台界面.webp](./img/后台界面.webp)
 至此你已经成功的完成了主程序的安装
 {.is-success}

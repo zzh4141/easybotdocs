@@ -9,12 +9,12 @@
 
 > [!TIP] LLOneBot 
 > 如果你是小白，推荐使用LLOneBot     
-> [LLOneBot安装](/quick_start/robots/LLOneBot)
+> [LLOneBot安装](./robots/LLOneBot)
 
 > [!CAUTION] Lagrange
 > 我们并不推荐小白使用Lagrange      
-> [Lagrange安装](/quick_start/robots/Lagrange.md)
+> [Lagrange安装](./robots/Lagrange)
 
 ::: warning
-如果你将EasyBot部署到Docker容器中，请阅读 [容器部署](/quick_start/install/docker#_6-登录easybot)
+如果你将EasyBot部署到Docker容器中，请阅读 [容器部署](./install/docker#_6-登录easybot)
 :::

@@ -14,7 +14,7 @@ hero:
       text: 了解详情
       link: /home
     - theme: alt
-      text: 赞助废物作者
+      text: 赞助作者
       link: /money
 
 features:
