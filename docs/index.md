@@ -30,6 +30,11 @@ features:
   - icon: 🔐
     title: 灵活的绑定机制
     details: EasyBot提供了多样化的账号绑定选项，确保玩家与社区间的紧密联系
+  
+  - icon: 🔌
+    title: 丰富的插件系统
+    details: EasyBot拥有丰富的插件系统，为玩家提供丰富的功能，让玩家在游戏内拥有更丰富的体验
+  
 ---
 
 <div align="center" style="margin-top: 45px;">
