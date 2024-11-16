@@ -1,32 +1,67 @@
 # 关于本项目
 
-感谢以下的朋友，他们为这个项目提供了帮助：
+参与制作人员
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
 
-> [!TIP] <div style="display: flex; align-items: center;"><img src="/attachments/thanks/chenx.png" alt="img" style="width: 50px; height: 50px; border-radius: 50%;"><span style="margin-left: 10px;">Ler 丨晨兮</span></div>
->
-> - 为 EasyBot 提供文档托管
-> - 为 EasyBot 提供服务器
-> - 为 EasyBot 撰写[文档](https://yingen.top/)
+const members = [
+    {
+    avatar: '/attachments/thanks/MiuxuE.jpg',
+    name: 'MiuxuE',
+    title: '项目创始人',
+    links: [
+      { icon: 'github', link: 'https://github.com/zkhssb' },
+    ]
+  },
+    {
+    avatar: '/attachments/thanks/chenx.png',
+    name: 'Ler 丨晨兮',
+    title: '提供服务器,文档编辑',
+    links: [
+      { icon: 'github', link: 'https://github.com/2048781750' },
+    ]
+  },
+    {
+    avatar: '/attachments/thanks/huahua.jpg',
+    name: '倒霉蛋花花',
+    title: 'Docker 镜像作者',
+    links: [
+      { icon: 'github', link: 'https://github.com/xrcuo' },
+      { icon: 'docker', link: 'https://hub.docker.com/r/xrcuor/easybot' }
+    ]
+  },
+  {
+    avatar: '/attachments/thanks/Dongyanmio.jpg',
+    name: 'Dongyanmio',
+    title: '文档编辑',
+    links: [
+      { icon: 'github', link: 'https://github.com/Dongyanmio' }
+    ]
+  },
+  {
+    avatar: '/attachments/thanks/zzh4141.jpg',
+    name: 'zzh4141',
+    title: '文档编辑',
+    links: [
+      { icon: 'github', link: 'https://github.com/zzh4141' }
+    ]
+  }
+]
+</script>
 
-> [!TIP] <div style="display: flex; align-items: center;"><img src="/attachments/thanks/huahua.jpg" alt="img" style="width: 50px; height: 50px; border-radius: 50%;"><span style="margin-left: 10px;">倒霉蛋花花</span></div>
->
-> - [Docker 镜像作者](https://hub.docker.com/r/xrcuor/easybot)
-
-> [!TIP] <div style="display: flex; align-items: center;"><img src="/attachments/thanks/zzh4141.jpg" alt="img" style="width: 50px; height: 50px; border-radius: 50%;"><span style="margin-left: 10px;">zzh4141</span></div>
->
-> - 为 EasyBot 撰写文档
+<VPTeamMembers size="small" :members="members" />
 
 ## 赞助
 
 感谢以下朋友，他们为这个项目提供了帮助：
 
 | 名称             | 赞助金额(元) |
-| ---------------- | :----------: |
+| :--------------: | :----------: |
 | 谜欲             |     100      |
-| S\*6             |      70      |
+| S\\*6            |      70      |
 | 织雨             |     18.8     |
 | 爱发电用户\_7dPG |      15      |
-| \*岷             |      10      |
-| \*\*玉           |      10      |
-| .\*.             |      10      |
-| \*\*健           |      10      |
+| \\岷             |      10      |
+| \\玉             |      10      |
+| .\\*             |      10      |
+| \\健             |      10      |

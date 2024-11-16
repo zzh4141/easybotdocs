@@ -92,7 +92,7 @@ export default defineConfig({
             items: [
               { text: "Windows", link: "/quick_start/install/windows" },
               { text: "Liunx安装", link: "/quick_start/install/linux" },
-              { text: "部署到容器", link: "/quick_start/install/docker" },
+              { text: "Docker", link: "/quick_start/install/docker" },
             ],
           },
           {
