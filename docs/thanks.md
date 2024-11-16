@@ -6,7 +6,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
     {
-    avatar: '/attachments/thanks/MiuxuE.jpg',
+    avatar: '/MiuxuE.jpg',
     name: 'MiuxuE',
     title: '项目创始人',
     links: [
@@ -14,7 +14,7 @@ const members = [
     ]
   },
     {
-    avatar: '/attachments/thanks/chenx.png',
+    avatar: '/chenx.png',
     name: 'Ler 丨晨兮',
     title: '提供服务器,文档编辑',
     links: [
@@ -22,7 +22,7 @@ const members = [
     ]
   },
     {
-    avatar: '/attachments/thanks/huahua.jpg',
+    avatar: '/huahua.jpg',
     name: '倒霉蛋花花',
     title: 'Docker 镜像作者',
     links: [
@@ -31,7 +31,7 @@ const members = [
     ]
   },
   {
-    avatar: '/attachments/thanks/Dongyanmio.jpg',
+    avatar: '/Dongyanmio.jpg',
     name: 'Dongyanmio',
     title: '文档编辑',
     links: [
@@ -39,7 +39,7 @@ const members = [
     ]
   },
   {
-    avatar: '/attachments/thanks/zzh4141.jpg',
+    avatar: '/zzh4141.jpg',
     name: 'zzh4141',
     title: '文档编辑',
     links: [
