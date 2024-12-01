@@ -6,27 +6,25 @@ import { reinjectFooter } from "./beian";
 import mediumZoom from "medium-zoom";
 import { onMounted, watch, nextTick } from "vue";
 import { useRoute } from "vitepress";
-import { h } from 'vue';
-import DefaultTheme from 'vitepress/theme';
-import Giscus from './components/Giscus.vue'; // 添加了缺失的右引号
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';
+import { useData } from 'vitepress';
 
 export default {
   extends: Theme,
-  
-  Layout() {
-    return h(DefaultTheme.Layout, null, {
-      'doc-after': () => h(Giscus)
-    });
-  }, // 添加了缺失的逗号
 
   enhanceApp: (ctx: EnhanceAppContext) => {
     if (typeof window == "undefined") {
       return;
     }
+
+    // 调用 DefaultTheme 的增强应用逻辑（如果有的话）
+    if (Theme.enhanceApp) {
+      Theme.enhanceApp(ctx);
+    }
+
     ctx.router.onAfterRouteChanged = (to: string) => {
       reinjectFooter();
       for (let i = 0; i < 50; i++) {
-        // 别tm问我为什么,网站重载的时候样式挂不上,就离谱
         setTimeout(() => {
           if (to === window.location.pathname) {
             reinjectFooter();
@@ -38,13 +36,30 @@ export default {
 
   setup() {
     const route = useRoute();
+    const { frontmatter } = useData();
+
     const initZoom = () => {
-      // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
-      mediumZoom(".main img", { background: "var(--vp-c-bg)" }); // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
+      mediumZoom(".main img", { background: "var(--vp-c-bg)" });
     };
 
     onMounted(() => {
       initZoom();
+
+      // 初始化 Giscus 评论系统
+      giscusTalk({
+        repo: 'zzh4141/easybotdocs', 
+        repoId: 'R_kgDOMlZ23w',   
+        category: 'Announcements', // 或其他分类，默认: `General`
+        categoryId: 'DIC_kwDOMlZ2384CiB3g', 
+        mapping: 'pathname', // 默认: `pathname`
+        inputPosition: 'top', // 默认: `top`
+        lang: 'zh-CN', // 默认: `zh-CN`
+        lightTheme: 'light', // 默认: `light`
+        darkTheme: 'transparent_dark', // 默认: `transparent_dark`
+      }, {
+        frontmatter,
+        route
+      }, true); // 是否激活评论区，默认为 true
     });
 
     watch(
