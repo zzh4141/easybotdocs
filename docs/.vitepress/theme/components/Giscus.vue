@@ -13,15 +13,13 @@ import Giscus from "@giscus/vue";
     repo="zzh4141/easybotdocs"
     repoId="R_kgDOMlZ23w"
     category="Announcements"
-    categoryId="'DIC_kwDOMlZ2384CiB3g"
+    categoryId="DIC_kwDOMlZ2384CiB3g"
     mapping="pathname"
     strict="0"
-    term="Welcome to @giscus/react component!"
     reactionsEnabled="1"
     emitMetadata="0"
     inputPosition="top"
     :theme="isDark ? 'dark_tritanopia' : 'light_tritanopia'"
     lang="zh-CN"
-    loading="lazy"
   />
 </template>
