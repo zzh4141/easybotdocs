@@ -20,7 +20,7 @@ import Giscus from "@giscus/vue";
     reactionsEnabled="1"
     emitMetadata="0"
     inputPosition="top"
-    :theme="preferred_color_scheme"
+    :theme="isDark ? 'dark_tritanopia' : 'light_tritanopia'"
     lang="zh-CN"
     loading="lazy"
   />
