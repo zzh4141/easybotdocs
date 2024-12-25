@@ -1,7 +1,6 @@
 // vitepress.config.js
 import { defineConfig } from "vitepress";
 import mdItCustomAttrs from "markdown-it-custom-attrs";
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "EasyBot wiki",
@@ -131,6 +130,8 @@ export default defineConfig({
         items: [
           { text: "为后台设置密码", link: "/教程_令牌登录" },
           { text: "支持 CMI", link: "/cmi" },
+          { text: "QQ掉线问题", link: "/faq/掉线问题" },
+          { text: "两台电脑怎么部署?", link: "/faq/双机问题" },
           //{ text: "修改主程序端口", link: "/教程__修改主程序端口" },
         ],
       },
@@ -150,5 +151,5 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/zzh4141/easybotdocs" },
     ],
-  },
+  }
 });
