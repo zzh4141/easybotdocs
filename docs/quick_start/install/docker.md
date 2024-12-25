@@ -7,19 +7,24 @@ editor: markdown
 dateCreated: 2024-08-18T06:40:00.004Z
 ---
 
+<script setup>
+import GetPublicIP from '../../components/GetPublicIP.vue'
+</script>
+
+
 # 使用 Docker 来安装 EasyBot 主程序+QQ 机器人框架
 
 > [!NOTE]
 > 在此需要感谢“倒霉蛋花花”大佬为我们提供的 docker 镜像
 
-> 注意，此教程仅适用于 Linux 上的 docker 如需在 windows 上使用 docker 请根据此教程的部分地方来进行改变
-> 此教程不推荐小白上手，如需上手，请确保您有一定的 Linux 基础
+> 注意，此教程仅适用于 Linux 上的 docker 如需在 windows 上使用 docker 请根据此教程的部分地方来进行改变    
+> 此教程不推荐小白上手，如需上手，请确保您有一定的 Linux 基础 
 
 ### 1.我们将使用需要一键安装 docker 并更换源仓库进行加速
 
-● 支持 Debian / Ubuntu / RHEL / CentOS / Fedora 等
+● 支持 Debian / Ubuntu / RHEL / CentOS / Fedora 等    
 
-● 支持上述基于 Debian 与 Redhat 系的发行版和及其部分衍生版本，支持拥有相同底层核心的其它发行版
+● 支持上述基于 Debian 与 Redhat 系的发行版和及其部分衍生版本，支持拥有相同底层核心的其它发行版    
 
 使用此脚本请切换至 root 用户执行
 
@@ -38,21 +43,21 @@ bash <(curl -sSL https://raw.githubusercontent.com/yangyzp/wikicc_collection/mas
 
 ● 如果提示 则说明当前未安装 软件包
 
-```
-sudo yum install -y curl || sudo apt-get install -y curl
+```shell
+sudo yum install -y curl || sudo apt-get install -y curl    
 ```
 
 ### 2. Docker Compose 安装
 
 ### 方式一：直接下载安装
 
-```
+```shell
 curl -L https://get.daocloud.io/docker/compose/releases/download/1.24.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-```
+```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
@@ -62,14 +67,14 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-
 
 ##### 首先，安装 `python-pip`：
 
-```
+```shell
 yum -y install epel-release
 yum -y install python-pip
 ```
 
 ##### 然后，安装 `docker-compose`：
 
-```
+```shell
 pip install docker-compose
 docker-compose version
 ```
@@ -85,7 +90,7 @@ docker-compose version
 
 1.新建目录存放配置文件
 
-```
+```shell
 mkdir /opt/EasyBot
 cd /opt/EasyBot
 ```
@@ -94,7 +99,7 @@ cd /opt/EasyBot
 
 必须按需修改
 
-```
+```yml
 version: '3'
 services:
   easybot:
@@ -125,11 +130,11 @@ services:
 
 使用以下命令进行部署
 
-```
+```shell
 docker-compose up
 ```
 
-```
+```shell
 docker-compose up -d
 ```
 
@@ -151,6 +156,8 @@ docker-compose up -d
 > 如果你和服务器处于同一个内网，请访问:服务器内网 ip:6099/webui/
 > 如果你的服务器位于公网，且你们不在同一个内网，请使用:服务器公网 ip:6099/webui/
 
+<GetPublicIP/>
+
 2.接下来您将会来到一个输入密码界面
 
 如果你没有改动过 docker-compose.yml 文件中的登陆密钥
@@ -164,13 +171,13 @@ docker-compose up -d
 
 在其中找到 token，这个 token 就是你的登陆密钥
 
-```
+```json
 {
-  "host": "0.0.0.0"， // WebUI 监听地址
-  "port": 6099， // WebUI 端口
-  "prefix": ""， // WebUI 工作前缀，此项功能将在进阶配置中解释
-  "token": "xxxx"， //登录密钥，默认是自动生成的随机登录密码
-  "loginRate": 3， //每分钟登录次数限制
+  "host": "0.0.0.0", // WebUI 监听地址
+  "port": 6099, // WebUI 端口
+  "prefix": "", // WebUI 工作前缀，此项功能将在进阶配置中解释
+  "token": "xxxx", //登录密钥，默认是自动生成的随机登录密码
+  "loginRate": 3 //每分钟登录次数限制
 }
 ```
 
