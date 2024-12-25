@@ -133,6 +133,7 @@ export default defineConfig({
           { text: "QQ掉线问题", link: "/faq/掉线问题" },
           { text: "两台电脑怎么部署?", link: "/faq/双机问题" },
           { text: "我的公网IP是什么?", link: "/faq/我的公网IP" },
+          { text: "常见报错分析", link: "/faq/报错分析" },
           //{ text: "修改主程序端口", link: "/教程__修改主程序端口" },
         ],
       },
