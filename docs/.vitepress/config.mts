@@ -134,6 +134,7 @@ export default defineConfig({
           { text: "两台电脑怎么部署?", link: "/faq/双机问题" },
           { text: "我的公网IP是什么?", link: "/faq/我的公网IP" },
           { text: "常见报错分析", link: "/faq/报错分析" },
+          { text: "执行命令失败或返回执行成功", link: "/faq/命令无法执行" },
           //{ text: "修改主程序端口", link: "/教程__修改主程序端口" },
         ],
       },
