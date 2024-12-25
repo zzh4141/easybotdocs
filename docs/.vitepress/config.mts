@@ -127,7 +127,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "EasyBot 小技巧",
+        text: "EasyBot 小技巧 & 常见问题",
         items: [
           { text: "为后台设置密码", link: "/教程_令牌登录" },
           { text: "支持 CMI", link: "/cmi" },
@@ -137,7 +137,8 @@ export default defineConfig({
       {
         text: "其他",
         items: [
-          { text: "PlaceholderAPI 变量", link: "/api" },
+          { text: "离线变量", link: "/offline-papi" },
+          { text: "PAPI变量", link: "/api" },
           { text: "赞助作者", link: "/money" },
           { text: "备用地址", link: "/wiki" },
           { text: "QQ 交流群", link: "/qq" },
