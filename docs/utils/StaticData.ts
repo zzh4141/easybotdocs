@@ -11,7 +11,7 @@ export const Templates = [
             author: ['MiuxuE'],
             tag: ['信息'],
             version: "1.0.0",
-            content: "/market/easybot_image_template_1/index",
+            content: "/market/easybot_image_template_1/",
             links: [
                 {
                     name: "下载",

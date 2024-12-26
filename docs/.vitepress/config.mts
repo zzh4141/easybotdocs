@@ -82,7 +82,7 @@ export default defineConfig({
       {
         text: "图片模板",
         items: [
-          { text: "模板市场", link: "/market" },
+          { text: "模板市场", link: "/market/" },
           {
             text: "模板列表",
   
@@ -91,7 +91,7 @@ export default defineConfig({
               text: item.manifest.name,
               link: item.manifest.content,
             })),
-          },
+          }
         ],
       },
       {
@@ -152,6 +152,17 @@ export default defineConfig({
           { text: "常见报错分析", link: "/faq/报错分析" },
           { text: "执行命令失败或返回执行成功", link: "/faq/命令无法执行" },
           //{ text: "修改主程序端口", link: "/教程__修改主程序端口" },
+        ],
+      },
+      {
+        text: "图片模板开发教程",
+        items: [
+          { text: "概念", link: "/template/" },
+          { text: "申明文件", link: "/template/manifest" },
+          { text: "数据持久化", link: "/template/dp" },
+          { text: "模板上下文", link: "/template/context" },
+          { text: "调用服务器PAPI", link: "/template/placeholder" },
+          { text: "使用Vite+React开发模板", link: "/template/tutorial/vite-react" },
         ],
       },
       {
