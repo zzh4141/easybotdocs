@@ -4,8 +4,8 @@
             <div class="build-version">{{ templateInfo.manifest.version }}</div>
             <div class="server-name">
                 <!-- Avatar as an image -->
-                <img :src="`${templateInfo.manifest.icon}`" :alt="templateInfo.manifest.name" class="avatar" />
-                <label style="margin-left: 10px">{{ templateInfo.manifest.name }}</label>
+                <img v-if="templateInfo.manifest.icon !== undefined" :src="`${templateInfo.manifest.icon}`" :alt="templateInfo.manifest.name" class="avatar" />
+                <label>{{ templateInfo.manifest.name }}</label>
             </div>
             <div>
                 <p class="plugin-desc">{{ templateInfo.manifest.description }}</p>
@@ -101,6 +101,7 @@ export default {
         margin-bottom: 10px;
         display: flex;
         align-items: center;
+        gap: 10px;
     }
 
     .avatar {
