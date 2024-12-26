@@ -1,6 +1,7 @@
 // vitepress.config.js
 import { defineConfig } from "vitepress";
 import mdItCustomAttrs from "markdown-it-custom-attrs";
+import { Templates } from "../utils/StaticData";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "EasyBot wiki",
@@ -76,6 +77,21 @@ export default defineConfig({
           { text: "EasyBot 工作流程", link: "/woke" },
           { text: "EasyBot 下载地址", link: "/down" },
           { text: "EasyBot 支持的服务器", link: "/vies" },
+        ],
+      },
+      {
+        text: "图片模板",
+        items: [
+          { text: "模板市场", link: "/market" },
+          {
+            text: "模板列表",
+  
+            items: Templates.filter((template) => template.manifest?.content)
+            .map((item) => ({
+              text: item.manifest.name,
+              link: item.manifest.content,
+            })),
+          },
         ],
       },
       {
