@@ -4,8 +4,7 @@
 - `服务器`: 指运行`我的世界`服务器的电脑
 - `机器人`: 指`社交平台`的服务，如: "LLOnebot"
 
-
-# 服务器报错
+# 服务端的报错
 
 ## java.net.ConnectException: Connection refused: no further information
 
@@ -41,6 +40,14 @@
 
 # 执行命令失败 或 Can not find runCommand method
 
-![图片](./assets/rcon_error_1.png)
+![图片](faq/assets/rcon_error_1.png)
 
 请看[本篇文档](命令无法执行.md)
+
+# 我的QQ老掉线怎么办
+
+1. 首先，官方对于野生机器人管控十分甚至九分严
+2. 如果你正在使用LLOnebot,请将QQ降级到旧版本(越老越好) 因为新版本QQ加了检测
+可尝试老版本QQ 27597
+> Windows x64: https://dldir1.qq.com/qqfile/qq/QQNT/b07cb1a5/QQ9.9.15.27597_x64.exe
+3. 最终解决办法: 收购腾讯
