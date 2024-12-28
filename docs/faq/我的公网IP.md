@@ -27,4 +27,5 @@ import GetPublicIP from '/components/GetPublicIP.vue'
 
 ## 我的公网IP是什么?
 > 此方法获取公网IP，无法确定是否是真正意义上可以从公网访问,可使用 https://itdog.cn/ping  查看是否可以从公网连接
-> <GetPublicIP />
+
+<GetPublicIP />
