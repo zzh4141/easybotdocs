@@ -82,6 +82,7 @@ export default defineConfig({
       {
         text: "图片模板",
         items: [
+          { text: "教程&概念", link: "/market/template" },
           { text: "模板市场", link: "/market/" },
           {
             text: "模板列表",
