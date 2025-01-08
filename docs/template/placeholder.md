@@ -13,6 +13,19 @@ export async function placeholder(
   query: string,
   player?: string
 ): Promise<string>
+
+/**
+ * 在指定服务器调用PlaceholderApi
+ * @param context 上下文
+ * @param query 含有PlaceholderApi变量的文本
+ * @param player 如果不指定玩家,就是Papi默认的 --null
+ * @returns 处理后的文本
+ */
+export async function placeholderAt(
+  context: CardContext,
+  query: string,
+  player?: string
+): Promise<string>
 ```
 
 ## 例

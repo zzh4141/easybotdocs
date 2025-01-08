@@ -3,6 +3,10 @@
 > [!TIP] 温馨提醒
 > 本教程对没有接触过前端开发的同学不友好
 
+> [!TIP] 温馨提醒1
+> 我们已经推出适用于`≥1.3.3`主程序的图片模板开发包
+> [点击查看](https://github.com/zkhssb/easybot-react-vite-template)
+
 本教程,我们要实现一个获取时间的卡片
 
 ![IMG](./assets/1.png)

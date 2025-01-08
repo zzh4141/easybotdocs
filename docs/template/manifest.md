@@ -12,6 +12,7 @@
 - `tag` 模板的标签
 - `settings` 模板的设置
 - `template` 模板的子模板
+- `single_file_router` 单文件路由(所有404都会被重定向到index.html)
 
 ## settings
 
