@@ -1,7 +1,7 @@
 <script setup>
 import ImageTemplate from '../../components/ImageTemplate.vue'
 import { Templates } from '../../utils/StaticData'
-const template = Templates[0]
+const template = Templates[1]
 </script>
 
 <ImageTemplate
