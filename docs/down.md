@@ -53,9 +53,10 @@ dateCreated: 2024-08-17T10:37:05.776Z
 
 | 版本名          | 发布时间          | 下载节点                                                                                                                                           |
 | --------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2.0.2           | 25 年 1 月 18 日  | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-2.0.2.jar) <label style="color:green">(推荐下载)</label> |
-| 2.0.1           | 25 年 1 月 8 日   | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-2.0.1.jar) <label style="color:green">(推荐下载)</label> |
-| 2.0.0           | 25 年 1 月 8 日   | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-2.0.0.jar) <label style="color:green">(推荐下载)</label> |
+| 2.0.3           | 25 年 2 月 9 日   | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-2.0.3.jar) <label style="color:green">(推荐下载)</label> |
+| 2.0.2           | 25 年 1 月 18 日  | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-2.0.2.jar)                                               |
+| 2.0.1           | 25 年 1 月 8 日   | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-2.0.1.jar)                                               |
+| 2.0.0           | 25 年 1 月 8 日   | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-2.0.0.jar)                                               |
 | 1.9.6           | 25 年 1 月 4 日   | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-1.9.6.jar)                                               |
 | 1.9.5-urgentfix | 24 年 12 月 4 日  | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-1.9.5-urgentfix.jar)                                     |
 | 1.9.5           | 24 年 11 月 11 日 | [\[点我下载\]](http://dl.inectar.cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6/EasyBot-1.9.5.jar)                                               |
