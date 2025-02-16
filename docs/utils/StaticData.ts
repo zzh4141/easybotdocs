@@ -5,6 +5,32 @@ export const StaticData = {
 export const Templates = [
     {
         manifest: {
+            name: '玩家信息模板',
+            description: '高自定义显示玩家信息,支持自定义变量,显示皮肤(支持离线,皮肤站),可自定义排版和图标',
+            icon: 'http://dl.inectar.cn/p/%E5%9B%BE%E7%89%87%E6%A8%A1%E6%9D%BF/%E7%AE%80%E6%B4%81%E6%A8%A1%E6%9D%BF%E5%A5%97%E8%A3%85/.img/icon.png',
+            author: ['MiuxuE'],
+            tag: ['信息'],
+            version: "1.0.0-测试版",
+            content: null,
+            links: [
+                {
+                    name: "论坛介绍",
+                    href: "https://bbs.hualib.com/217.html"
+                },
+                {
+                    name: "下载",
+                    href: "https://dl.inectar.cn/%E5%9B%BE%E7%89%87%E6%A8%A1%E6%9D%BF/%E7%8E%A9%E5%AE%B6%E4%BF%A1%E6%81%AF%E6%A8%A1%E6%9D%BF"
+                }
+            ]
+        },
+        props: {
+            templateCount: 2,
+            dependencies: [
+            ]
+        }
+    },
+    {
+        manifest: {
             name: '简洁模板套装',
             description: '简洁的模板套装: 服务器列表、玩家列表',
             icon: 'http://dl.inectar.cn/p/%E5%9B%BE%E7%89%87%E6%A8%A1%E6%9D%BF/%E7%AE%80%E6%B4%81%E6%A8%A1%E6%9D%BF%E5%A5%97%E8%A3%85/.img/icon.png',
